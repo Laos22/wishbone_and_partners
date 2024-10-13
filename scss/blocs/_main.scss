@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular);
+
+:root {
+    --font-family: "Poppins", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: #1b1a1a;
+}
+
+.text-grey {
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #645c55
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 110%;
+    font-weight: inherit;
+}
+
+p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #403e3b;
+}

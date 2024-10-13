@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 90px;
+    padding: 22px 21px 22px 32px;
+
+}
+.logo {
+    max-width: 220px;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 31px;
+
+	
+}
+.nav-menu {
+    display: flex;
+    gap: 32px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.btn-dark {
+    border-radius: 14px;
+    background: #1b1a1a;
+    padding: 11px 20px;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-wrap: nowrap;
+}

@@ -38,4 +38,10 @@
     letter-spacing: 0.03em;
     color: #fff;
     text-wrap: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-dark:hover {
+    background: #656363;
+    
 }

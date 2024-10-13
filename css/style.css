@@ -42,6 +42,13 @@ h2 {
   font-weight: inherit;
 }
 
+h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 119%;
+  color: #403e3b;
+}
+
 p {
   font-size: 16px;
   line-height: 150%;
@@ -88,6 +95,12 @@ p {
   letter-spacing: 0.03em;
   color: #fff;
   text-wrap: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-dark:hover {
+  background: #656363;
 }
 
 .hero {
@@ -102,6 +115,7 @@ p {
   align-items: center;
 }
 .hero__content__text-block {
+  margin-top: 17px;
   max-width: 600px;
   max-height: 600px;
   padding: 40px;
@@ -122,7 +136,14 @@ p {
   padding: 11px 20px;
   background: transparent;
   font-size: 16px;
+  border-radius: 3px;
   letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-read-more:hover {
+  background: #d1c7a0;
 }
 
 .hero__image {
@@ -136,4 +157,49 @@ p {
      object-fit: cover;
   -o-object-position: left bottom;
      object-position: left bottom;
+}
+
+.our-firm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-firm__inner {
+  max-width: 768px;
+  max-height: 582px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+}
+.our-firm__inner h3 {
+  flex: 1;
+}
+.our-firm__inner__column {
+  flex: 2;
+}
+
+.paragrafs {
+  max-height: 470px;
+  overflow: auto;
+}
+.paragrafs p {
+  margin-bottom: 10px;
+}
+
+.firm-leader {
+  margin-top: 8px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.firm-leader p {
+  font-size: 17px;
+  line-height: 153%;
+  margin-bottom: -10px;
+}
+.firm-leader span {
+  font-size: 14px;
+  line-height: 100%;
+  color: #645c55;
 }/*# sourceMappingURL=style.css.map */

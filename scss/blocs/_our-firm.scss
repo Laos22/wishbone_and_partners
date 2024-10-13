@@ -1,0 +1,47 @@
+
+.our-firm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__inner {
+        // border: 1px black solid;
+        max-width: 768px;
+        max-height: 582px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        h3 {
+            flex: 1;
+        }
+        &__column {
+            flex: 2;
+        }
+    }
+}
+
+.paragrafs {
+    max-height: 470px;
+    overflow: auto;
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+.firm-leader {
+    margin-top: 8px;
+    margin-left: 10px; //подгон пикселей
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    p {
+        font-size: 17px;
+        line-height: 153%;
+        margin-bottom: -10px;
+    }
+    span {
+        font-size: 14px;
+        line-height: 100%;
+        color: #645c55;
+    }
+}
+

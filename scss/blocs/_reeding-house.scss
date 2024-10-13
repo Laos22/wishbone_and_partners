@@ -1,0 +1,40 @@
+.reeding-house {
+    display: flex;
+    
+    .reeding-house__inner {
+        margin-top: 30px;
+        position: relative;
+        img {
+            width: 100%;
+            object-fit: cover;
+    
+        }
+    
+        .reeding-house__text {
+            position: absolute;
+            max-width: 285px;
+            top: calc(50% - 40px);
+            left: 75%;
+    
+        }
+    
+        // .reeding-house__title
+    
+        .reeding-house__title {
+            font-size: 14px;
+            line-height: 143%;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: #403e3b;
+    
+        }
+    
+        // .reeding-house__disc
+    
+        .reeding-house__disc {
+            font-size: 16px;
+            line-height: 150%;
+            color: #645c55;
+        }
+    }
+}

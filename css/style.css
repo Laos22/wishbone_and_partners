@@ -221,6 +221,7 @@ p {
   max-width: 285px;
   top: calc(50% - 40px);
   left: 75%;
+  padding-right: 10px;
 }
 .reeding-house .reeding-house__inner .reeding-house__title {
   font-size: 14px;
@@ -237,7 +238,7 @@ p {
 
 .how-we-do__inner {
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 100px auto 80px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -406,4 +406,25 @@ p {
 
 .hoverr:hover {
   opacity: 0.7;
+}
+
+.team {
+  padding: 100px 136px;
+}
+.team__inner {
+  display: flex;
+  justify-content: center;
+}
+.team__inner_text-block {
+  flex: 1;
+}
+
+.team__inner__teams {
+  flex: 2;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 36px 0;
+}
+.team__inner__teams .firm-leader {
+  margin: 8px;
 }/*# sourceMappingURL=style.css.map */

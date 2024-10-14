@@ -1,0 +1,36 @@
+.contact {
+    margin-top: 20px;
+    background: #cec4bc;
+    padding: 100px 136px;
+
+
+    // .contact__inner
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+
+    }
+}
+
+.contact__inner__text-block {
+
+    p {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #645c55;
+        margin-bottom: -5px;
+    }
+    
+    h3 {
+        font-size: 40px;
+        line-height: 105%;
+        color: #1b1a1a;
+        max-width: 600px;
+    }
+
+}

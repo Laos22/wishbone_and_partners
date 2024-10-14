@@ -433,6 +433,7 @@ p {
 }
 .team__inner__teams .firm-leader {
   margin: 8px;
+  text-wrap: nowrap;
 }
 
 .contact {
@@ -460,4 +461,22 @@ p {
   line-height: 105%;
   color: #1b1a1a;
   max-width: 600px;
+}
+
+.footer {
+  padding: 60px 136px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.social-media {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.footer__inner__text-block div {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */

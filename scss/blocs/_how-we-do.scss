@@ -1,0 +1,56 @@
+
+
+.how-we-do {
+
+
+    // .how-we-do__inner
+    
+    &__inner {
+        max-width: 1200px;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 39px;
+            line-height: 108%;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    }
+}
+.text-grey {
+
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+.service {
+    max-width: 378px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+        font-size: 18px;
+        line-height: 144%;
+        text-align: center;
+        color: #403e3b;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        padding: 0 42px;
+        text-align: center;
+        overflow: auto;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: center;
+        color: #645c55;
+    }
+}

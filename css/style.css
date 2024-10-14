@@ -210,6 +210,7 @@ p {
 .reeding-house .reeding-house__inner {
   margin-top: 30px;
   position: relative;
+  max-height: 600px;
 }
 .reeding-house .reeding-house__inner img {
   width: 100%;
@@ -249,7 +250,7 @@ p {
   line-height: 108%;
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .services {
@@ -280,4 +281,44 @@ p {
   line-height: 160%;
   text-align: center;
   color: #645c55;
+}
+
+.happy-customers {
+  background: #403e3b;
+  color: #fff;
+  padding: 60px 136px;
+}
+.happy-customers__inner {
+  display: flex;
+  align-items: center;
+  gap: 132px;
+}
+
+.inner__text {
+  flex-basis: 460px;
+}
+.inner__text h3 {
+  color: #fff;
+  margin-bottom: 14px;
+}
+.inner__text p {
+  font-size: 15px;
+  line-height: 160%;
+  color: #ece7e4;
+}
+
+.client-logos {
+  flex-basis: 432px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 216px;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+.happy-customers {
+    background: #403e3b;
+    color: #fff;
+    padding: 60px 136px;
+   
+
+    // .happy-customers__inner
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 132px;
+    }
+}
+.inner {
+
+    // .inner__text
+
+    &__text {
+        flex-basis: 460px;
+        h3 {
+            color: #fff;
+            margin-bottom: 14px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 160%;
+            color: #ece7e4;
+        }
+    }
+}
+
+.client-logos {
+    flex-basis: 432px;
+    // max-height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // gap: 96px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 216px;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
